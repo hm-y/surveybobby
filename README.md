@@ -1,6 +1,7 @@
 # SurveyBobby  
   
 **__Team: Curious Raccoons__**  
+Hilmi Yildirim, Michael Pavlovic (@MichaelPavlovic), Mounica Sykam (@MounicaSykam), Vitaliy Bulyma (@VitaliyBulyma) 
   
 ## :white_check_mark: Project Description  
   
@@ -9,12 +10,9 @@ Unregistered users will only be able to see the main/home page where they will f
 
 Registered users will be able to Log-in on the main page, and will be re-directed to their User Dashboard, where they will see a list of all surveys that they have created, and statistic associated with each survey. They will be able to follow the link to create new surveys from their dashboard.  As well as, able to go to the main page where, as registered users, they will see a list of all surveys available, and select one to fill if desire. In addition, from their dashboard they will be able to update their own profile, and even delete the account. 
 
-Administrator following the Login will be re-directed to the Admin Dashboard, where they will be able to see “At Glance” information about all users in a system, and users registered in a last 30 days. Similarly, surveys information will be displayed including total surveys, and surveys created in a last 30 days. Also, administrator is able to see list of all surveys, where they will be able to remove them, and a list of all users registered with an option to delete the user form the system. From Admin dashboard, administrator will be able to access home page management page.
-
+Administrator following the Login will be re-directed to the Admin Dashboard, where they will be able to see “At Glance” information about all users in a system, and users registered in a last 30 days. Similarly, surveys information will be displayed including total surveys, and surveys created in a last 30 days. Also, administrator is able to see list of all surveys, where they will be able to remove them, and a list of all users registered with an option to delete the user form the system. From Admin dashboard, administrator will be able to access home page management page. 
   
-The project demo is live here: http://knx.jmn.mybluehost.me/curiousraccoons  
-  
-**Dependencies:** To run the project locally, clone the repository and run it on the local host. You also need to setup a local database with the name "surveybobby" and the "surveybobby.sql" file you can find in "sql" folder.   
+**Dependencies:** To run the project locally, clone the repository and run it on the local host. You also need to setup a local database with the name "surveybobby" and the "surveybobby.sql" file you can find in "sql" folder. You also need to update the database configurations in *dbConnection.php*  
   
 ## :arrow_forward: How it works 
   
@@ -73,35 +71,4 @@ You can use these credentials to test the website.
 | petergriffin@gmail.com | pumpkin | yes |
 | cbing@gmail.com | friends| no |
 | bobd@gmail.com | password | no |
- 
-## :globe_with_meridians: Teamwork  
-  
-Team members and their contributions are listed below.  
-  
-#### N01375163: Hilmi Yildirim  
-  
-- Implemented SignIn, SignUp (CRUD for `users`) and TakeSurvey pages  
-- Deployed the website to the server and connected the database
-- Hashed passwords, Wrote readMe, ...
-  
-#### N01401486: Michael Pavlovic  
-  
-- Implemented the home and the manageHome pages (CRUD for `faq`, `explanations`)  
-- Developed CRUD for `questions` and the update functionality for `surveys`  
-- Coded the sessions, the header for the logged in users, ...
-  
-#### N01363730: Mounica Sykam 
-  
-- Implemented CRUD for `categories`  
-- Coded adding `surveys` and `questions`  
-- Coded for listing the surveys
-- Created Survey statistics page
-- Developed the main header, contributed to the Survey class, ...
-  
-#### N00224782: Vitaliy Bulyma   
-
-- Implemented the user and admin dashboards
-- Developed the User class and contributed to `users` CRUD  
-- Coded the footer, tested the website, ...
-
 
